@@ -1,0 +1,47 @@
+
+.Col-5{
+text-align: center;}
+
+@media only screen and (max-width: 576px) {
+  .main-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .Col-1 {
+    width: 100%;
+    order: 1;
+  }
+  .Col-2 {
+    width: 100%;
+    order: 2;
+  }
+  .Col-3 {
+    width: 100%;
+    order: 3;
+  }
+  .Col-4 {
+    width: 100%;
+    background-color: #001529;
+    margin: 0px;
+    order: 5;
+  }
+  .Col-5 {
+    width: 100%;
+    order: 4;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .Col-1 {
+    margin-left: -10px;
+  }
+  .Col-3 {
+    margin-left: 5px;
+    }
+}
+@media only screen and (max-width: 576px) {
+.anchor {
+padding-bottom: 80px;
+background-color: #001529;
+}
+}
